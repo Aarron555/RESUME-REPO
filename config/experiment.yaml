@@ -1,0 +1,21 @@
+tasks:
+  - summarization
+  - reasoning
+  - code_transformation
+  - constrained_output
+  - adversarial_injection
+
+systems:
+  - baseline
+  - structured
+  - axiom
+
+models:
+  - gpt
+  - claude
+  - local
+
+runs_per_task: 10
+max_attempts: 3
+temperature: 0.0
+seed: 42
