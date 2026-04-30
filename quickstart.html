@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Space Twin Starter (Native Preview)</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div class="hud">
+      <div class="row"><strong>Status:</strong> <span id="status">booting</span></div>
+      <div class="row">
+        <label for="timeRange"><strong>Time:</strong></label>
+        <input id="timeRange" type="range" min="-3650" max="3650" step="1" value="0" />
+        <span id="timeLabel"></span>
+      </div>
+      <div class="row"><span id="distanceLabel">camera distance: 0</span></div>
+      <div class="row actions">
+        <button id="resetView">Reset View</button>
+        <button id="toggleOrbits">Hide Orbits</button>
+        <button id="toggleLabels">Hide Labels</button>
+      </div>
+    </div>
+
+    <script type="module" src="./static/js/app.js"></script>
+  </body>
+</html>
