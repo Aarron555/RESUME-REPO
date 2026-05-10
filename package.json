@@ -1,0 +1,10 @@
+{
+  "name": "dumbwork-dumb-scan",
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "qa": "node lib/qa/qaTests.js",
+    "test:visual": "playwright test",
+    "test:visual:update": "playwright test --update-snapshots"
+  }
+}

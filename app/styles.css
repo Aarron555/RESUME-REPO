@@ -1,0 +1,22 @@
+:root {
+  --dw-bg:#F6F2EC;--dw-card:#FFFDF8;--dw-black:#111111;--dw-muted:#5A5650;--dw-border:#D9D4CD;--dw-orange:#FF6A1A;--dw-orange-soft:#FFF0E8;--dw-success:#1F7A3F;--dw-warning:#B7791F;--dw-error:#C2410C;
+  --dw-space-1:4px;--dw-space-2:8px;--dw-space-3:12px;--dw-space-4:16px;--dw-space-5:24px;--dw-space-6:32px;--dw-space-7:48px;--dw-space-8:64px;--dw-space-9:96px;
+  --dw-radius-sm:8px;--dw-radius-md:14px;--dw-radius-lg:22px;--dw-radius-xl:32px;
+  --dw-sidebar-width:248px;--dw-header-height:72px;--dw-page-max:1280px;--dw-public-max:1440px;
+  --dw-font-display:"Arial Narrow","Helvetica Neue Condensed","Inter Tight",sans-serif;--dw-font-body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --dw-text-xs:11px;--dw-text-sm:13px;--dw-text-base:15px;--dw-text-md:18px;--dw-text-lg:24px;--dw-text-xl:36px;--dw-text-2xl:56px;--dw-text-3xl:84px;
+}
+body{margin:0;background:var(--dw-bg);color:var(--dw-black);font-family:var(--dw-font-body);font-size:var(--dw-text-base);line-height:1.5}
+.dw-display{font-family:var(--dw-font-display);font-weight:900;letter-spacing:-.02em;line-height:.92}
+.dw-label{text-transform:uppercase;font-size:var(--dw-text-xs);font-weight:700;letter-spacing:.18em}
+.dw-page{max-width:var(--dw-page-max);margin:0 auto;padding:var(--dw-space-6)}
+.dw-public-page{max-width:var(--dw-public-max);margin:0 auto;padding:32px 48px}
+.dw-admin-shell{display:grid;grid-template-columns:var(--dw-sidebar-width) 1fr;min-height:100vh}
+.dw-card{background:var(--dw-card);border:1px solid var(--dw-border);border-radius:var(--dw-radius-md);padding:var(--dw-space-5)}
+.dw-btn{min-height:44px;border-radius:var(--dw-radius-sm);padding:0 var(--dw-space-4);font-weight:700;border:1px solid var(--dw-border);cursor:pointer}
+.dw-btn-primary{background:var(--dw-orange);border-color:var(--dw-orange);color:#fff}
+.dw-btn-secondary{background:var(--dw-card);color:var(--dw-black)}
+.dw-input{min-height:44px;border:1px solid var(--dw-border);border-radius:var(--dw-radius-sm);padding:0 var(--dw-space-3);background:#fff;width:100%}
+.dw-focus:focus,.dw-btn:focus,.dw-input:focus{outline:3px solid var(--dw-orange-soft);outline-offset:2px}
+.dw-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 8px;border-radius:999px;border:1px solid var(--dw-border);font-size:var(--dw-text-xs)}
+@media(max-width:900px){.dw-admin-shell{grid-template-columns:1fr}.dw-public-page,.dw-page{padding:20px}}
