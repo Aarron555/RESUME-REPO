@@ -6,9 +6,9 @@ tasks:
   - adversarial_injection
 
 systems:
-  - baseline
+  - casual
   - structured
-  - axiom
+  - hcm
 
 models:
   - gpt

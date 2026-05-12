@@ -1,14 +1,13 @@
-# AXE-LAB v4 (PERS)
+# AXE-LAB v4 — HCM Evaluation Council Mode
 
-Ground-truth validated, cost-aware, iteration-simulating LLM evaluation framework.
+This repo benchmarks **casual vs structured vs HCM recursive prompts** across multiple models and tasks.
 
-## Measures
-
-- True task success (validator pass/fail)
-- Retry-loop behavior (attempts to success)
-- Economic cost (token-to-$ model)
-- Failure persistence
-- Cross-model efficiency
+It performs:
+- blind output scoring
+- rubric-based quality scoring
+- failure taxonomy tagging
+- task-level HCM improvement percentage calculation
+- evidence-backed final conclusions (no universal claims)
 
 ## Run
 
@@ -16,13 +15,7 @@ Ground-truth validated, cost-aware, iteration-simulating LLM evaluation framewor
 python run.py
 ```
 
-Optional dashboard:
-
-```bash
-python run.py --dashboard
-```
-
-## Tests
+## Test
 
 ```bash
 python -m pytest -q

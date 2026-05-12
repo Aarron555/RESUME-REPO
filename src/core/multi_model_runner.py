@@ -47,7 +47,7 @@ def _extract_prompt_parts(prompt: str) -> _PromptParts:
 
 
 def _quality_from_prompt(prompt: str) -> float:
-    signals = ["OUTPUT_REQUIREMENT=", "TASK_ID=", "@ROLE", "SYSTEM_POLICY=", "^FORMAT", "priority"]
+    signals = ["OUTPUT_REQUIREMENT=", "TASK_ID=", "SYSTEM_POLICY=", "priority", "@HCM_ROLE", "@HCM_LOOP"]
     return sum(1 for s in signals if s.lower() in prompt.lower()) / len(signals)
 
 
