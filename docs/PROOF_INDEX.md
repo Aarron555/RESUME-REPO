@@ -12,6 +12,13 @@ Prompt workflows can be inconsistent, hard to compare, and easy to overclaim.
 
 A deterministic local evaluation harness that compares prompt strategies across controlled task types, validates outputs, retries failures, scores results, tags failures, estimates simulated cost, and generates reports.
 
+### Visual proof assets
+
+- `assets/report-preview.svg` — visual summary of the generated report structure.
+- `assets/dashboard-preview.svg` — visual summary of the dashboard concept and review surface.
+
+These are repo-native preview assets, not live production screenshots.
+
 ### Tools and structure
 
 - Python
@@ -34,6 +41,8 @@ A deterministic local evaluation harness that compares prompt strategies across 
 - `src/analysis/` — statistics and cost logic
 - `results/report_generator.py` — report generator
 - `results/report.md` — generated report output
+- `assets/report-preview.svg` — report preview asset
+- `assets/dashboard-preview.svg` — dashboard preview asset
 - `tests/test_outputs.py` — tests
 - `.github/workflows/tests.yml` — CI workflow
 
@@ -113,12 +122,13 @@ Strong:
 - documentation quality
 - reproducible local execution path
 - evaluation workflow design
+- visual preview assets
 - careful claim control
 - tests and CI scaffold
 
 Still improving:
 
-- screenshots and visual walkthrough
+- true live dashboard screenshots
 - real API adapters
 - larger fixture catalog
 - reviewer annotation workflow
