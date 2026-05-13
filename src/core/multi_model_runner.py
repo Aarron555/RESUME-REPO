@@ -1,4 +1,9 @@
-"""Multi-model execution layer for AXE-LAB v3."""
+"""Multi-model execution layer for AXE-LAB v4.
+
+The current clients are deterministic stand-ins. They preserve the same interface
+that future live API adapters can implement while keeping the project runnable
+without external keys.
+"""
 
 from __future__ import annotations
 
@@ -28,15 +33,12 @@ class _PromptParts:
 def _extract_prompt_parts(prompt: str) -> _PromptParts:
     lines = prompt.splitlines()
     kv = {}
+    valid_keys = {"TASK_ID", "TASK", "CONTEXT", "OUTPUT_REQUIREMENT"}
     for line in lines:
-        if "=" in line and line.split("=", 1)[0] in {
-            "TASK_ID",
-            "TASK",
-            "CONTEXT",
-            "OUTPUT_REQUIREMENT",
-        }:
+        if "=" in line:
             key, value = line.split("=", 1)
-            kv[key] = value
+            if key in valid_keys:
+                kv[key] = value
 
     return _PromptParts(
         task_id=kv.get("TASK_ID", ""),
