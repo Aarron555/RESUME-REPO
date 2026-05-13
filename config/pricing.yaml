@@ -1,0 +1,9 @@
+gpt:
+  input: 0.0000015
+  output: 0.0000020
+claude:
+  input: 0.0000012
+  output: 0.0000018
+local:
+  input: 0.0000002
+  output: 0.0000003

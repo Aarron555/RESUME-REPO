@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AXE-LAB generated report preview</title>
+  <desc id="desc">Preview mockup of the AXE-LAB markdown report showing condition means, task comparison, and evidence-backed conclusion.</desc>
+  <rect width="1280" height="720" fill="#F5F5F5"/>
+  <rect x="64" y="48" width="1152" height="624" rx="24" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="104" y="110" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#111111">AXE-LAB v4 — Evaluation Council Report</text>
+  <text x="104" y="148" font-family="Inter, Arial, sans-serif" font-size="18" fill="#555555">Deterministic local prompt-system comparison with controlled scope and narrow conclusions</text>
+  <line x1="104" y1="178" x2="1176" y2="178" stroke="#E5E5E5"/>
+  <text x="104" y="226" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">Condition Means</text>
+  <rect x="104" y="250" width="316" height="86" rx="16" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="128" y="284" font-family="Inter, Arial, sans-serif" font-size="16" fill="#666666">Casual</text>
+  <text x="128" y="318" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111111">0.9153</text>
+  <rect x="482" y="250" width="316" height="86" rx="16" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="506" y="284" font-family="Inter, Arial, sans-serif" font-size="16" fill="#666666">Structured</text>
+  <text x="506" y="318" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111111">0.9598</text>
+  <rect x="860" y="250" width="316" height="86" rx="16" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="884" y="284" font-family="Inter, Arial, sans-serif" font-size="16" fill="#666666">HCM Recursive</text>
+  <text x="884" y="318" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111111">0.9414</text>
+  <text x="104" y="388" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">Task-by-Task Evidence</text>
+  <rect x="104" y="412" width="1072" height="152" rx="16" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="128" y="448" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111111">Task</text>
+  <text x="414" y="448" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111111">Best Supported Result</text>
+  <text x="816" y="448" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111111">Claim Control</text>
+  <line x1="128" y1="466" x2="1152" y2="466" stroke="#E5E5E5"/>
+  <text x="128" y="498" font-family="Inter, Arial, sans-serif" font-size="15" fill="#111111">constrained_output</text>
+  <text x="414" y="498" font-family="Inter, Arial, sans-serif" font-size="15" fill="#111111">HCM beat both baselines</text>
+  <text x="816" y="498" font-family="Inter, Arial, sans-serif" font-size="15" fill="#008A4C">narrow supported claim</text>
+  <text x="128" y="532" font-family="Inter, Arial, sans-serif" font-size="15" fill="#111111">summarization</text>
+  <text x="414" y="532" font-family="Inter, Arial, sans-serif" font-size="15" fill="#111111">structured performed better</text>
+  <text x="816" y="532" font-family="Inter, Arial, sans-serif" font-size="15" fill="#B45309">no universal HCM claim</text>
+  <rect x="104" y="592" width="1072" height="40" rx="10" fill="#111111"/>
+  <text x="128" y="618" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF">Evidence-backed conclusion: HCM improves quality only where scores exceed both baselines.</text>
+</svg>

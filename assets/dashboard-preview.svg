@@ -1,0 +1,42 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AXE-LAB dashboard preview</title>
+  <desc id="desc">Preview mockup of the AXE-LAB dashboard showing experiment overview, task scores, failure tags, and run controls.</desc>
+  <rect width="1280" height="720" fill="#F5F5F5"/>
+  <rect x="48" y="40" width="1184" height="640" rx="28" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <rect x="48" y="40" width="260" height="640" rx="28" fill="#111111"/>
+  <text x="80" y="96" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">AXE-LAB</text>
+  <text x="80" y="128" font-family="Inter, Arial, sans-serif" font-size="14" fill="#CFCFCF">Evaluation Harness</text>
+  <rect x="80" y="176" width="196" height="42" rx="10" fill="#2A2A2A"/>
+  <text x="100" y="203" font-family="Inter, Arial, sans-serif" font-size="14" fill="#FFFFFF">Experiment Overview</text>
+  <text x="100" y="260" font-family="Inter, Arial, sans-serif" font-size="14" fill="#CFCFCF">Task Comparison</text>
+  <text x="100" y="310" font-family="Inter, Arial, sans-serif" font-size="14" fill="#CFCFCF">Failure Tags</text>
+  <text x="100" y="360" font-family="Inter, Arial, sans-serif" font-size="14" fill="#CFCFCF">Report Preview</text>
+  <text x="348" y="96" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111111">Experiment Overview</text>
+  <text x="348" y="132" font-family="Inter, Arial, sans-serif" font-size="16" fill="#555555">Controlled local comparison across prompt systems, tasks, and deterministic model stand-ins.</text>
+  <rect x="348" y="170" width="250" height="118" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="376" y="208" font-family="Inter, Arial, sans-serif" font-size="15" fill="#666666">Total Records</text>
+  <text x="376" y="252" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#111111">450</text>
+  <rect x="630" y="170" width="250" height="118" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="658" y="208" font-family="Inter, Arial, sans-serif" font-size="15" fill="#666666">Prompt Systems</text>
+  <text x="658" y="252" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#111111">3</text>
+  <rect x="912" y="170" width="250" height="118" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="940" y="208" font-family="Inter, Arial, sans-serif" font-size="15" fill="#666666">Task Types</text>
+  <text x="940" y="252" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#111111">5</text>
+  <rect x="348" y="326" width="814" height="176" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="376" y="366" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">Rubric Mean by Prompt System</text>
+  <rect x="376" y="408" width="660" height="18" rx="9" fill="#E5E5E5"/>
+  <rect x="376" y="408" width="604" height="18" rx="9" fill="#111111"/>
+  <text x="1050" y="423" font-family="Inter, Arial, sans-serif" font-size="14" fill="#111111">casual 0.915</text>
+  <rect x="376" y="446" width="660" height="18" rx="9" fill="#E5E5E5"/>
+  <rect x="376" y="446" width="634" height="18" rx="9" fill="#111111"/>
+  <text x="1050" y="461" font-family="Inter, Arial, sans-serif" font-size="14" fill="#111111">structured 0.960</text>
+  <rect x="376" y="484" width="660" height="18" rx="9" fill="#E5E5E5"/>
+  <rect x="376" y="484" width="621" height="18" rx="9" fill="#111111"/>
+  <text x="1050" y="499" font-family="Inter, Arial, sans-serif" font-size="14" fill="#111111">hcm 0.941</text>
+  <rect x="348" y="532" width="392" height="94" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="376" y="570" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Failure Tags</text>
+  <text x="376" y="606" font-family="Inter, Arial, sans-serif" font-size="14" fill="#555555">format_failure · instruction_miss · structural_violation</text>
+  <rect x="770" y="532" width="392" height="94" rx="18" fill="#FAFAFA" stroke="#E5E5E5"/>
+  <text x="798" y="570" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Claim Control</text>
+  <text x="798" y="606" font-family="Inter, Arial, sans-serif" font-size="14" fill="#555555">Narrow conclusions only; no universal benchmark claim.</text>
+</svg>
