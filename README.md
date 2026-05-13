@@ -1,12 +1,20 @@
-# AXE-LAB v4 — Deterministic LLM Evaluation Harness
+# RESUME-REPO — AI Workflow Proof Hub
 
-AXE-LAB is a reproducible local evaluation harness for comparing prompt-system strategies across task types. It benchmarks casual, structured, and HCM recursive prompting patterns using deterministic model stand-ins, rubric scoring, failure taxonomy tagging, cost simulation, generated reports, and a Streamlit-ready dashboard.
+This repository is a professional proof-of-work hub. Its featured project is **AXE-LAB v4**, a deterministic LLM evaluation harness for AI workflow, prompt evaluation, AI operations, QA, product operations, and automation roles.
 
-This project is designed as professional proof of work for AI workflow, prompt evaluation, AI operations, QA, product operations, and automation roles.
+AXE-LAB compares casual, structured, and HCM recursive prompting patterns across controlled task types using deterministic model stand-ins, rubric scoring, failure taxonomy tagging, cost simulation, generated reports, and a Streamlit-ready dashboard scaffold.
 
-## Recruiter summary
+## Featured project: AXE-LAB v4
 
 Built AXE-LAB, a deterministic LLM evaluation harness that compares casual, structured, and recursive prompt strategies across task types using rubric scoring, failure taxonomy tagging, reproducible experiment runs, cost modeling, and generated reports to support evidence-based AI workflow evaluation.
+
+## Visual previews
+
+These preview assets are repo-native visual summaries for fast review. They are not live production screenshots; they illustrate the generated report and dashboard concepts documented in the project.
+
+![AXE-LAB report preview](assets/report-preview.svg)
+
+![AXE-LAB dashboard preview](assets/dashboard-preview.svg)
 
 ## Fast review links
 
@@ -28,7 +36,7 @@ Built AXE-LAB, a deterministic LLM evaluation harness that compares casual, stru
 
 AXE-LAB currently uses deterministic stand-in model clients for GPT, Claude, and local models. This keeps the project runnable without external API keys and makes test results reproducible. It should be evaluated as a deterministic evaluation harness simulator, not as a live production benchmark of commercial model APIs.
 
-Future versions can add real OpenAI, Anthropic, and local model adapters behind the same ModelClient interface.
+Future versions can add real OpenAI, Anthropic, and local model adapters behind the same `ModelClient` interface.
 
 ## What this project demonstrates
 
@@ -67,6 +75,7 @@ python run.py --dashboard
 ## Repository map
 
 ```text
+assets/          visual preview assets for report/dashboard review
 config/          experiment and pricing configuration
 benchmarks/      generated JSON benchmark artifacts
 docs/            architecture, method, limitations, ATS, proof, and claim docs
@@ -97,9 +106,9 @@ It does demonstrate evaluation system design, reproducible local experiments, st
 ## Review path for hiring teams
 
 1. Read `docs/PROJECT_BRIEF.md`.
-2. Read `docs/CASE_STUDY.md`.
-3. Read `docs/PROOF_INDEX.md`.
-4. Read `docs/RECRUITER_GUIDE.md`.
+2. Review the visual previews in `assets/`.
+3. Read `docs/CASE_STUDY.md`.
+4. Read `docs/PROOF_INDEX.md`.
 5. Run `python -m pytest -q`.
 6. Run `python run.py`.
 7. Inspect `results/report.md`.
