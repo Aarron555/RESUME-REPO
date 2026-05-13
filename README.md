@@ -12,9 +12,13 @@ Built AXE-LAB, a deterministic LLM evaluation harness that compares casual, stru
 
 - Project brief: `docs/PROJECT_BRIEF.md`
 - Case study: `docs/CASE_STUDY.md`
+- Proof index: `docs/PROOF_INDEX.md`
+- ATS alignment: `docs/ATS_ALIGNMENT.md`
+- Skill to role map: `docs/SKILL_TO_ROLE_MAP.md`
 - Recruiter guide: `docs/RECRUITER_GUIDE.md`
 - Architecture: `docs/ARCHITECTURE.md`
 - Evaluation method: `docs/EVALUATION_METHOD.md`
+- Bias audit: `docs/BIAS_AUDIT.md`
 - Claim map: `docs/CLAIM_MAP.md`
 - Limitations: `docs/LIMITATIONS.md`
 - Interview notes: `docs/INTERVIEW_NOTES.md`
@@ -65,7 +69,7 @@ python run.py --dashboard
 ```text
 config/          experiment and pricing configuration
 benchmarks/      generated JSON benchmark artifacts
-docs/            architecture, method, limitations, and claim map
+docs/            architecture, method, limitations, ATS, proof, and claim docs
 results/         generated Markdown report and report generator
 src/analysis/    cost and statistics logic
 src/core/        model stand-ins and retry loop
@@ -94,8 +98,9 @@ It does demonstrate evaluation system design, reproducible local experiments, st
 
 1. Read `docs/PROJECT_BRIEF.md`.
 2. Read `docs/CASE_STUDY.md`.
-3. Read `docs/RECRUITER_GUIDE.md`.
-4. Run `python -m pytest -q`.
-5. Run `python run.py`.
-6. Inspect `results/report.md`.
-7. Review `docs/CLAIM_MAP.md`.
+3. Read `docs/PROOF_INDEX.md`.
+4. Read `docs/RECRUITER_GUIDE.md`.
+5. Run `python -m pytest -q`.
+6. Run `python run.py`.
+7. Inspect `results/report.md`.
+8. Review `docs/BIAS_AUDIT.md` and `docs/CLAIM_MAP.md`.
