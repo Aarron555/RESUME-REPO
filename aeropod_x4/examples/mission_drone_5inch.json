@@ -1,0 +1,20 @@
+{
+  "name": "5inch_default_mission",
+  "motor_to_motor_diagonal_mm": 225,
+  "cruise_speed_mps": 15.0,
+  "air_density_kg_m3": 1.225,
+  "dynamic_viscosity_pa_s": 1.81e-5,
+  "target_mass_kg": 0.300,
+  "material": "PETG",
+  "manufacturing_method": "FDM",
+  "score_weights": {
+    "drag": 0.22,
+    "mass": 0.18,
+    "durability": 0.16,
+    "printability": 0.14,
+    "repairability": 0.10,
+    "prop_blockage": 0.08,
+    "power": 0.08,
+    "frontal_area": 0.04
+  }
+}
