@@ -1,0 +1,11 @@
+# Operations Runbook
+- Review new scan -> check risk flags/missing info/next best action.
+- If red flag: send manual review message.
+- If missing info: request missing detail.
+- If deposit eligible: send deposit link.
+- Mark payment manually only with confirmation note.
+- Request booking via configured link; mark booked manually after confirmation.
+- Move build states after onboarding and checklist completion.
+- Request final payment when QA pass.
+- Send handoff and offer care.
+- If complaint: pause build, acknowledge issue, log note, propose fix path.
