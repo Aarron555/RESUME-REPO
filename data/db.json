@@ -1866,6 +1866,584 @@
         "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
       },
       "reason": "Clear pain, clear fit, and complete info with no red flags."
+    },
+    {
+      "id": "scan_257mq71g",
+      "business_name": "Quick Haul",
+      "contact_name": "Alex",
+      "phone": "111",
+      "email": "",
+      "industry": "junk removal",
+      "service_area": "Dallas",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls",
+        "Website form",
+        "Instagram/Facebook DMs"
+      ],
+      "pain_points": [
+        "Missed calls",
+        "Slow replies"
+      ],
+      "urgency_answer": "Happens often and hurts",
+      "average_job_value_answer": "$250–$500",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want leads answered and tracked",
+      "free_text_pain": "",
+      "urgency_score": 20,
+      "ticket_value_score": 15,
+      "lead_chaos_score": 15,
+      "owner_pain_score": 14,
+      "implementation_simplicity_score": 19,
+      "total_score": 83,
+      "tier": "Hot",
+      "recommended_system": "Missed Lead Fix",
+      "confidence_level": "High",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Happens often and hurts' mapped to 20.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": true,
+      "deposit_block_reasons": [],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Missed Lead Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: Quick Haul\nIndustry: junk removal\nRecommended System: Missed Lead Fix\nWhy: Highest-urgency lead response leaks detected.\nPrimary Pain: Missed calls, Slow replies\nLead Sources: Phone calls, Website form, Instagram/Facebook DMs\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "recommendation_ready",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.048Z",
+      "updated_at": "2026-05-13T15:35:39.048Z",
+      "submitted_at": "2026-05-13T15:35:39.048Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Happens often and hurts' mapped to 20.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Clear pain, clear fit, and complete info with no red flags."
+    },
+    {
+      "id": "scan_g0ydv5cf",
+      "business_name": "GreenCut",
+      "contact_name": "Sam",
+      "phone": "",
+      "email": "a@b.com",
+      "industry": "lawn care",
+      "service_area": "Austin",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls",
+        "Website form"
+      ],
+      "pain_points": [
+        "Quotes get lost",
+        "We forget to follow up"
+      ],
+      "urgency_answer": "Could cost us a job",
+      "average_job_value_answer": "$250–$500",
+      "current_tools": [
+        "Google Sheets",
+        "Gmail"
+      ],
+      "fit_check_answer": "I want quotes followed up",
+      "free_text_pain": "",
+      "urgency_score": 15,
+      "ticket_value_score": 15,
+      "lead_chaos_score": 10,
+      "owner_pain_score": 14,
+      "implementation_simplicity_score": 19,
+      "total_score": 73,
+      "tier": "Warm",
+      "recommended_system": "Quote Follow-Up Fix",
+      "confidence_level": "High",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "2 lead sources indicates coordination complexity of 10.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": true,
+      "deposit_block_reasons": [],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Quote Follow-Up Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: GreenCut\nIndustry: lawn care\nRecommended System: Quote Follow-Up Fix\nWhy: Quote follow-up leak detected.\nPrimary Pain: Quotes get lost, We forget to follow up\nLead Sources: Phone calls, Website form\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "recommendation_ready",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.060Z",
+      "updated_at": "2026-05-13T15:35:39.060Z",
+      "submitted_at": "2026-05-13T15:35:39.060Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "2 lead sources indicates coordination complexity of 10.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Clear pain, clear fit, and complete info with no red flags."
+    },
+    {
+      "id": "scan_4ri2kaoi",
+      "business_name": "Sparkle",
+      "contact_name": "Kim",
+      "phone": "222",
+      "email": "",
+      "industry": "cleaning",
+      "service_area": "Miami",
+      "website_or_social": "",
+      "lead_sources": [
+        "Email",
+        "Phone calls"
+      ],
+      "pain_points": [
+        "Reviews do not get requested",
+        "Old customers are not re-contacted"
+      ],
+      "urgency_answer": "Annoying",
+      "average_job_value_answer": "$100–$250",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want reviews and old customers handled",
+      "free_text_pain": "",
+      "urgency_score": 8,
+      "ticket_value_score": 10,
+      "lead_chaos_score": 10,
+      "owner_pain_score": 12,
+      "implementation_simplicity_score": 19,
+      "total_score": 59,
+      "tier": "Cold",
+      "recommended_system": "Review + Reactivation Fix",
+      "confidence_level": "High",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Annoying' mapped to 8.",
+        "ticket_value_score": "Average job value '$100–$250' mapped to 10.",
+        "lead_chaos_score": "2 lead sources indicates coordination complexity of 10.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 12.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": true,
+      "deposit_block_reasons": [],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Review + Reactivation Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: Sparkle\nIndustry: cleaning\nRecommended System: Review + Reactivation Fix\nWhy: Review/reactivation leak detected.\nPrimary Pain: Reviews do not get requested, Old customers are not re-contacted\nLead Sources: Email, Phone calls\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "recommendation_ready",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.068Z",
+      "updated_at": "2026-05-13T15:35:39.068Z",
+      "submitted_at": "2026-05-13T15:35:39.068Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Annoying' mapped to 8.",
+        "ticket_value_score": "Average job value '$100–$250' mapped to 10.",
+        "lead_chaos_score": "2 lead sources indicates coordination complexity of 10.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 12.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Clear pain, clear fit, and complete info with no red flags."
+    },
+    {
+      "id": "scan_iqx2pq1g",
+      "business_name": "Skin",
+      "contact_name": "Dr Z",
+      "phone": "333",
+      "email": "",
+      "industry": "med spa",
+      "service_area": "LA",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls"
+      ],
+      "pain_points": [
+        "I do too much manually"
+      ],
+      "urgency_answer": "Could cost us a job",
+      "average_job_value_answer": "$500+",
+      "current_tools": [
+        "Not sure"
+      ],
+      "fit_check_answer": "I need help with legal/medical/financial intake",
+      "free_text_pain": "",
+      "urgency_score": 15,
+      "ticket_value_score": 20,
+      "lead_chaos_score": 5,
+      "owner_pain_score": 10,
+      "implementation_simplicity_score": 10,
+      "total_score": 60,
+      "tier": "Warm",
+      "recommended_system": "Manual Review / Not Fit Yet",
+      "confidence_level": "Manual Review",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 10."
+      },
+      "risk_flags": [
+        "legal",
+        "medical",
+        "financial",
+        "sensitive intake"
+      ],
+      "missing_info": [],
+      "deposit_allowed": false,
+      "deposit_block_reasons": [
+        "Manual review required",
+        "Low confidence recommendation",
+        "Red flag detected"
+      ],
+      "next_best_action": "Manual Review Required",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Manual Review / Not Fit Yet.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: Skin\nIndustry: med spa\nRecommended System: Manual Review / Not Fit Yet\nWhy: Red flag detected; manual review required.\nPrimary Pain: I do too much manually\nLead Sources: Phone calls\nRisk Level: Manual Review\nImplementation Complexity: 10\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "needs_review",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.073Z",
+      "updated_at": "2026-05-13T15:35:39.073Z",
+      "submitted_at": "2026-05-13T15:35:39.073Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 10."
+      },
+      "reason": "Risk or fit boundaries require human review."
+    },
+    {
+      "id": "scan_2o5h39hb",
+      "business_name": "BuildCo",
+      "contact_name": "Lee",
+      "phone": "444",
+      "email": "",
+      "industry": "moving",
+      "service_area": "NYC",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls"
+      ],
+      "pain_points": [
+        "Missed calls"
+      ],
+      "urgency_answer": "Could cost us a job",
+      "average_job_value_answer": "$500+",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want custom software",
+      "free_text_pain": "",
+      "urgency_score": 15,
+      "ticket_value_score": 20,
+      "lead_chaos_score": 5,
+      "owner_pain_score": 10,
+      "implementation_simplicity_score": 19,
+      "total_score": 69,
+      "tier": "Warm",
+      "recommended_system": "Manual Review / Not Fit Yet",
+      "confidence_level": "Manual Review",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [
+        "custom software",
+        "custom software request"
+      ],
+      "missing_info": [],
+      "deposit_allowed": false,
+      "deposit_block_reasons": [
+        "Manual review required",
+        "Low confidence recommendation",
+        "Red flag detected"
+      ],
+      "next_best_action": "Manual Review Required",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Manual Review / Not Fit Yet.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: BuildCo\nIndustry: moving\nRecommended System: Manual Review / Not Fit Yet\nWhy: Red flag detected; manual review required.\nPrimary Pain: Missed calls\nLead Sources: Phone calls\nRisk Level: Manual Review\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "needs_review",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.081Z",
+      "updated_at": "2026-05-13T15:35:39.081Z",
+      "submitted_at": "2026-05-13T15:35:39.081Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Risk or fit boundaries require human review."
+    },
+    {
+      "id": "scan_xs1ttepd",
+      "business_name": "CheapFix",
+      "contact_name": "Jo",
+      "phone": "999",
+      "email": "",
+      "industry": "handyman",
+      "service_area": "Tulsa",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls"
+      ],
+      "pain_points": [
+        "I do too much manually"
+      ],
+      "urgency_answer": "Not a big deal",
+      "average_job_value_answer": "Under $100",
+      "current_tools": [
+        "Mostly phone/text"
+      ],
+      "fit_check_answer": "I am not sure",
+      "free_text_pain": "",
+      "urgency_score": 4,
+      "ticket_value_score": 5,
+      "lead_chaos_score": 5,
+      "owner_pain_score": 10,
+      "implementation_simplicity_score": 19,
+      "total_score": 43,
+      "tier": "Cold",
+      "recommended_system": "Manual Review / Not Fit Yet",
+      "confidence_level": "Manual Review",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Not a big deal' mapped to 4.",
+        "ticket_value_score": "Average job value 'Under $100' mapped to 5.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": false,
+      "deposit_block_reasons": [
+        "Manual review required",
+        "Low confidence recommendation"
+      ],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Manual Review / Not Fit Yet.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: CheapFix\nIndustry: handyman\nRecommended System: Manual Review / Not Fit Yet\nWhy: Signals were too broad for a safe one-system First Fix.\nPrimary Pain: I do too much manually\nLead Sources: Phone calls\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "needs_review",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.086Z",
+      "updated_at": "2026-05-13T15:35:39.086Z",
+      "submitted_at": "2026-05-13T15:35:39.086Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Not a big deal' mapped to 4.",
+        "ticket_value_score": "Average job value 'Under $100' mapped to 5.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Risk or fit boundaries require human review."
+    },
+    {
+      "id": "scan_3xy3oqw1",
+      "business_name": "NoContact",
+      "contact_name": "Pat",
+      "phone": "",
+      "email": "",
+      "industry": "cleaning",
+      "service_area": "Austin",
+      "website_or_social": "",
+      "lead_sources": [
+        "Email"
+      ],
+      "pain_points": [
+        "Slow replies"
+      ],
+      "urgency_answer": "Could cost us a job",
+      "average_job_value_answer": "$250–$500",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want leads answered and tracked",
+      "free_text_pain": "",
+      "urgency_score": 15,
+      "ticket_value_score": 15,
+      "lead_chaos_score": 5,
+      "owner_pain_score": 10,
+      "implementation_simplicity_score": 19,
+      "total_score": 64,
+      "tier": "Warm",
+      "recommended_system": "Missed Lead Fix",
+      "confidence_level": "Medium",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [
+        "Missing phone or email"
+      ],
+      "deposit_allowed": false,
+      "deposit_block_reasons": [
+        "Missing phone or email"
+      ],
+      "next_best_action": "Request Missing Info",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Missed Lead Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: NoContact\nIndustry: cleaning\nRecommended System: Missed Lead Fix\nWhy: Highest-urgency lead response leaks detected.\nPrimary Pain: Slow replies\nLead Sources: Email\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: Missing phone or email",
+      "status": "needs_review",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.093Z",
+      "updated_at": "2026-05-13T15:35:39.093Z",
+      "submitted_at": "2026-05-13T15:35:39.093Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "1 lead sources indicates coordination complexity of 5.",
+        "owner_pain_score": "1 pains with high-leak indicators gives 10.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Core pain is clear; confirm missing details on Activation Call."
+    },
+    {
+      "id": "scan_yd5fsq2h",
+      "business_name": "MultiPain",
+      "contact_name": "Ray",
+      "phone": "888",
+      "email": "",
+      "industry": "junk removal",
+      "service_area": "Phoenix",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls",
+        "Website form",
+        "Instagram/Facebook DMs"
+      ],
+      "pain_points": [
+        "Missed calls",
+        "Quotes get lost",
+        "Reviews do not get requested"
+      ],
+      "urgency_answer": "Could cost us a job",
+      "average_job_value_answer": "$500+",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want leads answered and tracked",
+      "free_text_pain": "",
+      "urgency_score": 15,
+      "ticket_value_score": 20,
+      "lead_chaos_score": 15,
+      "owner_pain_score": 17,
+      "implementation_simplicity_score": 19,
+      "total_score": 86,
+      "tier": "Hot",
+      "recommended_system": "Missed Lead Fix",
+      "confidence_level": "High",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "3 pains with high-leak indicators gives 17.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": true,
+      "deposit_block_reasons": [],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Missed Lead Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: MultiPain\nIndustry: junk removal\nRecommended System: Missed Lead Fix\nWhy: Highest-urgency lead response leaks detected.\nPrimary Pain: Missed calls, Quotes get lost, Reviews do not get requested\nLead Sources: Phone calls, Website form, Instagram/Facebook DMs\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "recommendation_ready",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.097Z",
+      "updated_at": "2026-05-13T15:35:39.097Z",
+      "submitted_at": "2026-05-13T15:35:39.097Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Could cost us a job' mapped to 15.",
+        "ticket_value_score": "Average job value '$500+' mapped to 20.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "3 pains with high-leak indicators gives 17.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Clear pain, clear fit, and complete info with no red flags."
+    },
+    {
+      "id": "scan_q0nazk0o",
+      "business_name": "Quick Haul",
+      "contact_name": "Alex",
+      "phone": "111",
+      "email": "",
+      "industry": "junk removal",
+      "service_area": "Dallas",
+      "website_or_social": "",
+      "lead_sources": [
+        "Phone calls",
+        "Website form",
+        "Instagram/Facebook DMs"
+      ],
+      "pain_points": [
+        "Missed calls",
+        "Slow replies"
+      ],
+      "urgency_answer": "Happens often and hurts",
+      "average_job_value_answer": "$250–$500",
+      "current_tools": [
+        "Gmail"
+      ],
+      "fit_check_answer": "I want leads answered and tracked",
+      "free_text_pain": "",
+      "urgency_score": 20,
+      "ticket_value_score": 15,
+      "lead_chaos_score": 15,
+      "owner_pain_score": 14,
+      "implementation_simplicity_score": 19,
+      "total_score": 83,
+      "tier": "Hot",
+      "recommended_system": "Missed Lead Fix",
+      "confidence_level": "High",
+      "plain_language_reason": "",
+      "score_reasons": {
+        "urgency_score": "Urgency 'Happens often and hurts' mapped to 20.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "risk_flags": [],
+      "missing_info": [],
+      "deposit_allowed": true,
+      "deposit_block_reasons": [],
+      "next_best_action": "Send Recommendation",
+      "customer_recommendation_message": "Thanks — I reviewed your Dumb Scan. Based on your answers, I’d start with Missed Lead Fix.",
+      "internal_build_brief": "Dumbwork Scan Summary\nBusiness: Quick Haul\nIndustry: junk removal\nRecommended System: Missed Lead Fix\nWhy: Highest-urgency lead response leaks detected.\nPrimary Pain: Missed calls, Slow replies\nLead Sources: Phone calls, Website form, Instagram/Facebook DMs\nRisk Level: Normal\nImplementation Complexity: 19\nSuggested First Fix Scope: One proven workflow install and handoff\nMissing Info: None",
+      "status": "recommendation_ready",
+      "admin_notes": "",
+      "created_at": "2026-05-13T15:35:39.103Z",
+      "updated_at": "2026-05-13T15:35:39.103Z",
+      "submitted_at": "2026-05-13T15:35:39.103Z",
+      "reasons": {
+        "urgency_score": "Urgency 'Happens often and hurts' mapped to 20.",
+        "ticket_value_score": "Average job value '$250–$500' mapped to 15.",
+        "lead_chaos_score": "3 lead sources indicates coordination complexity of 15.",
+        "owner_pain_score": "2 pains with high-leak indicators gives 14.",
+        "implementation_simplicity_score": "Current tools suggest implementation simplicity score of 19."
+      },
+      "reason": "Clear pain, clear fit, and complete info with no red flags."
     }
   ],
   "auditLogs": [
@@ -1904,6 +2482,24 @@
       "action": "booking_marked_booked",
       "new_value": "booked",
       "reason": "manual confirmation"
+    },
+    {
+      "id": "audit_1778686539128",
+      "created_at": "2026-05-13T15:35:39.128Z",
+      "actor": "admin",
+      "scan_id": "scan_q0nazk0o",
+      "action": "payment_manual_confirmed",
+      "new_value": "manual_confirmed",
+      "reason": "confirmation note provided"
+    },
+    {
+      "id": "audit_1778686539149",
+      "created_at": "2026-05-13T15:35:39.149Z",
+      "actor": "admin",
+      "scan_id": "scan_q0nazk0o",
+      "action": "booking_marked_booked",
+      "new_value": "booked",
+      "reason": "manual confirmation"
     }
   ],
   "messageLogs": [],
@@ -1929,6 +2525,17 @@
       "created_at": "2026-05-08T02:27:02.686Z",
       "updated_at": "2026-05-08T02:27:02.690Z",
       "confirmation_note": "bank screenshot verified"
+    },
+    {
+      "id": "pay_1778686539114",
+      "scan_id": "scan_q0nazk0o",
+      "payment_type": "deposit",
+      "amount": 197,
+      "status": "manual_confirmed",
+      "payment_link": "",
+      "created_at": "2026-05-13T15:35:39.114Z",
+      "updated_at": "2026-05-13T15:35:39.123Z",
+      "confirmation_note": "bank screenshot verified"
     }
   ],
   "bookingRecords": [
@@ -1949,6 +2556,15 @@
       "scheduled_time": "2026-05-10T10:00:00Z",
       "created_at": "2026-05-08T02:27:02.698Z",
       "updated_at": "2026-05-08T02:27:02.702Z"
+    },
+    {
+      "id": "book_1778686539134",
+      "scan_id": "scan_q0nazk0o",
+      "status": "booked",
+      "booking_url": "",
+      "scheduled_time": "2026-05-10T10:00:00Z",
+      "created_at": "2026-05-13T15:35:39.134Z",
+      "updated_at": "2026-05-13T15:35:39.141Z"
     }
   ]
 }
