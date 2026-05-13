@@ -8,6 +8,18 @@ This project is designed as professional proof of work for AI workflow, prompt e
 
 Built AXE-LAB, a deterministic LLM evaluation harness that compares casual, structured, and recursive prompt strategies across task types using rubric scoring, failure taxonomy tagging, reproducible experiment runs, cost modeling, and generated reports to support evidence-based AI workflow evaluation.
 
+## Fast review links
+
+- Project brief: `docs/PROJECT_BRIEF.md`
+- Case study: `docs/CASE_STUDY.md`
+- Recruiter guide: `docs/RECRUITER_GUIDE.md`
+- Architecture: `docs/ARCHITECTURE.md`
+- Evaluation method: `docs/EVALUATION_METHOD.md`
+- Claim map: `docs/CLAIM_MAP.md`
+- Limitations: `docs/LIMITATIONS.md`
+- Interview notes: `docs/INTERVIEW_NOTES.md`
+- Roadmap: `docs/ROADMAP.md`
+
 ## Scope note
 
 AXE-LAB currently uses deterministic stand-in model clients for GPT, Claude, and local models. This keeps the project runnable without external API keys and makes test results reproducible. It should be evaluated as a deterministic evaluation harness simulator, not as a live production benchmark of commercial model APIs.
@@ -80,8 +92,10 @@ It does demonstrate evaluation system design, reproducible local experiments, st
 
 ## Review path for hiring teams
 
-1. Read docs/RECRUITER_GUIDE.md
-2. Run python -m pytest -q
-3. Run python run.py
-4. Inspect results/report.md
-5. Review docs/CLAIM_MAP.md
+1. Read `docs/PROJECT_BRIEF.md`.
+2. Read `docs/CASE_STUDY.md`.
+3. Read `docs/RECRUITER_GUIDE.md`.
+4. Run `python -m pytest -q`.
+5. Run `python run.py`.
+6. Inspect `results/report.md`.
+7. Review `docs/CLAIM_MAP.md`.
